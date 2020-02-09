@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Version>1.0.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>GlobalLogic</Authors>
+    <ProjectGuid>{D554D8A4-70BC-48C6-BF9A-8434C31D5A28}</ProjectGuid>
+    <Description>Provides core tracing contracts</Description>
+  </PropertyGroup>
+
+	
+	<ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.0" />
+	<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Common\Core.Common.csproj" />
+  </ItemGroup>
+
+</Project>

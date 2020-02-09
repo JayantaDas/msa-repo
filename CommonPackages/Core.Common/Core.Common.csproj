@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>GlobalLogic</Authors>
+    <Version>1.0.0.1</Version>
+    <Description>Provides common core library features that are used by other libraries.
+. CorelationID support.</Description>
+    <ProjectGuid>{72CF7FDF-9B1C-4DE0-9C05-2E59DD723098}</ProjectGuid>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+	<ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Primitives" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>

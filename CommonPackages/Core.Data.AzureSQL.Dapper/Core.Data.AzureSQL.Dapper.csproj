@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0.1</Version>
+    <Authors>GlobalLogic</Authors>
+    <Description>Provides core data implementations of Azure SQL using Dapper ORM</Description>
+    <ProjectGuid>{CF907F37-1A7D-4E2E-8B6B-12B3EEF2A38E}</ProjectGuid>
+  </PropertyGroup>
+
+	
+	<ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.Data\Core.Data.csproj" />
+  </ItemGroup>
+
+</Project>

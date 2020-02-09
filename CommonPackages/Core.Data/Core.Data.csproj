@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Version>1.0.0.1</Version>
+    <Authors>GlobalLogic</Authors>
+    <Description>Provides Data contracts.</Description>
+    <ProjectGuid>{1BC488CC-D93D-48B7-A70D-6B060D3E0943}</ProjectGuid>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+	
+
+</Project>

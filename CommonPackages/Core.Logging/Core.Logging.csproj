@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Version>1.0.0.1</Version>
+    <Authors>GlobalLogic</Authors>
+    <Description>Provides core logging contracts</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <ProjectGuid>{B11F6DCD-11A7-46C3-ACC1-B58517337ADD}</ProjectGuid>
+  </PropertyGroup>
+	
+
+</Project>

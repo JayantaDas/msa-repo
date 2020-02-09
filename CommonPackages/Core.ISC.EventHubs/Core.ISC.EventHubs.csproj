@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0.1</Version>
+    <Authors>GlobalLogic</Authors>
+    <ProjectGuid>{05D06ECC-5A9B-4E1B-B98E-923A435084D4}</ProjectGuid>
+    <Description>Provides core Inter service communication implementation of EventHubs</Description>
+  </PropertyGroup>
+
+	
+	<ItemGroup>
+    <Compile Remove="BasicEventProcessor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Azure.EventHubs" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Azure.EventHubs.Processor" Version="4.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core.ISC\Core.ISC.csproj" />
+  </ItemGroup>
+
+</Project>
